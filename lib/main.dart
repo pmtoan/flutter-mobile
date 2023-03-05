@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'authentication/login_screen.dart';
+import 'package:flutter_mobile/teacherDetail.dart';
 
 void main() {
   runApp(const MyApp());
@@ -57,13 +57,7 @@ class MainScreen extends StatelessWidget {
             backgroundColor: Colors.white,
         ),
       ),
-      body: SingleChildScrollView(
-          reverse: true,
-          child: Padding(
-              padding: EdgeInsets.only(bottom: MediaQuery.of(context).viewInsets.bottom),
-              child: LoginPage()
-          )
-      )
+      body: TeacherDetail()
     );
   }
 }
