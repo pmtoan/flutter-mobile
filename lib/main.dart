@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_mobile/scheduleScreen.dart';
 import 'package:flutter_mobile/teacherDetail.dart';
 
 void main() {
@@ -57,7 +58,7 @@ class MainScreen extends StatelessWidget {
             backgroundColor: Colors.white,
         ),
       ),
-      body: TeacherDetail()
+      body: ScheduleScreen()
     );
   }
 }
