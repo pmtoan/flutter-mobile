@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_mobile/courseDetail.dart';
 import 'package:flutter_mobile/scheduleScreen.dart';
 import 'package:flutter_mobile/teacherDetail.dart';
+
+import 'package:flutter_mobile/discorverCourses.dart';
 
 void main() {
   runApp(const MyApp());
@@ -58,7 +61,7 @@ class MainScreen extends StatelessWidget {
             backgroundColor: Colors.white,
         ),
       ),
-      body: ScheduleScreen()
+      body: CourseDetail()
     );
   }
 }

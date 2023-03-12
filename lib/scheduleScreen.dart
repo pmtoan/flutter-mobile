@@ -181,7 +181,7 @@ class LessonTile extends StatelessWidget {
           onPressed: () {},
           icon: Icon(Icons.disabled_by_default, size: 14, color: Colors.red,),
           label: Text('Cancel', style: TextStyle(color: Colors.red),),
-            style: TextButton.styleFrom(
+          style: ElevatedButton.styleFrom(
               backgroundColor: Colors.white,
               side: const BorderSide(color: Colors.red),
             ),
